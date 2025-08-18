@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Landingpage from './components/Landingpage'
 import Textloop from './components/Textloop'
 import About from './components/About'
+import Eyes from './components/Eyes'
 const App = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const App = () => {
       <Landingpage/>
       <Textloop/>
       <About/>
+      <Eyes/>
   </div>
     
     </>
