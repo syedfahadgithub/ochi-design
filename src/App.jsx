@@ -6,10 +6,10 @@ import About from './components/About'
 import Eyes from './components/Eyes'
 import Featured from './components/Featured'
 import Cards from './components/Cards'
+import Footer from './components/Footer'
 const App = () => {
   return (
     <>
- 
     <div className='w-full min-h-screen bg-zinc-100 text-white '>
       <Navbar/>
       <Landingpage/>
@@ -18,8 +18,8 @@ const App = () => {
       <Eyes/>
       <Featured/>
       <Cards/>
+      <Footer/>
   </div>
-    
     </>
   )
 }
