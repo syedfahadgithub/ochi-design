@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = () => {
     return (
-        <div className='flex items-center justify-center gap-10 w-full h-[40vw] bg-red-600'>
+        <div className='flex items-center justify-center gap-10 w-full h-[40vw]'>
             <div className='relative w-[40vw] h-[25vw] bg-green-900 rounded-xl'>
                 <h1 className='text-amber-500 text-[3vw] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>ochi</h1>
                 <h1 className='absolute bottom-5 left-5 border-[1px] border-amber-600 rounded-full p-1 text-sm'>©2019-2025</h1>
