@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React, { useEffect } from 'react'
 import { useState } from 'react';
 const Eyes = () => {
@@ -15,7 +16,7 @@ const Eyes = () => {
     })
     return (
         <div className='w-full h-screen overflow-hidden'>
-            <div className='relative w-full h-full bg-cover bg-center bg-[url("https://tse3.mm.bing.net/th/id/OIP.dB4Ey0VjkHWw2Msg68atfwHaEz?r=0&rs=1&pid=ImgDetMain&o=7&rm=3")]'>
+            <div data-scroll data-scroll-speed="-.6" className='relative w-full h-full bg-zinc-200 bg-cover bg-center bg-[url("https://ochi-clone-website.vercel.app/_next/image?url=/Top-Viewbbcbv-1-1440x921.jpg&w=3840&q=75")]'>
                 <div className='absolute flex items-center justify-center gap-5 w-[35vw] h-[15vw] left-[50%] top-[50%] transform -translate-x-[50%] -translate-y-[50%]'>
                     <div className='w-[15vw] h-[15vw] bg-zinc-100 rounded-full'>
                         <div className='relative left-1/2 top-1/2 transform -translate-x-[50%] -translate-y-[50%] w-[10vw] h-[10vw] bg-zinc-900 rounded-full'>

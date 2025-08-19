@@ -2,9 +2,9 @@ import React from 'react'
 
 const Featured = () => {
     return (
-        <div className='w-full h-[60vw] bg-zinc-100'>
+        <div className='w-full h-[60vw] bg-zinc-200'>
             <h1 className='text-zinc-800 text-[4vw] px-20 py-11 font-semibold border-b-[1px] border-zinc-700 '>Featured Projects</h1>
-            <div className='cardcontainer flex gap-10 items-center justify-center mt-14'>
+            <div className='cardcontainer relative flex gap-10 items-center justify-center mt-14'>
                 <div className=' flex flex-col items-center'>
                     <div className='card w-[30vw] md:w-[40vw] h-[30vw] md:h-[35vw] bg-cover bg-center rounded-xl  bg-[url("https://ochi.design/wp-content/uploads/2025/02/Salience_Website_cover-663x551.png")]'>
                     </div>

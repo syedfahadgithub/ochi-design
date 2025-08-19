@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='relative w-full h-screen bg-zinc-100'>
+        <div className='relative w-full h-screen bg-zinc-200'>
             <div className='flex gap-[30vw] p-5'>
                 <h1 className='text-[7vw] w-[20vw] font-bold leading-[6.5vw] text-black uppercase'>Eye-opening</h1>
                 <h1 className='text-[6vw] font-bold uppercase text-black '>presentation</h1>
