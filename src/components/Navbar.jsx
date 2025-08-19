@@ -8,12 +8,12 @@ const Navbar = () => {
   return (
     <div className='fixed z-[999] w-full px-6 py-4 flex items-center justify-between shadow-md'>
       {/* Logo */}
-      <div className='text-4xl md:text-6xl lg:text-8xl font-bold'>
+      <div className='text-4xl md:text-6xl lg:text-8xl font-bold text-zinc-800'>
         <h1>ochi</h1>
       </div>
 
       {/* Desktop Menu */}
-      <div className='hidden md:flex gap-6 lg:gap-10 text-lg lg:text-1xl font-light'>
+      <div className='hidden md:flex gap-6 lg:gap-10 text-lg lg:text-1xl  text-zinc-800'>
         {navItems.map((item, index) => (
           <a
             key={index}
@@ -26,7 +26,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu Toggle */}
-      <div className='md:hidden'>
+      <div className='md:hidden text-zinc-800'>
         <button onClick={() => setIsOpen(!isOpen)} className='text-3xl'>
           ☰
         </button>
@@ -34,7 +34,7 @@ const Navbar = () => {
 
       {/* Menu */}
       {isOpen && (
-        <div className='absolute top-full left-0 w-full  shadow-md flex flex-col items-start px-6 py-4 md:hidden'>
+        <div className='text-zinc-800 absolute top-full left-0 w-full  shadow-md flex flex-col items-start px-6 py-4 md:hidden'>
           {navItems.map((item, index) => (
             <a
               key={index}
